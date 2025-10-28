@@ -1,6 +1,7 @@
 // src/Home.jsx
 import React, { useState } from "react";
 import translations from "./translations";
+import Cookies from "js-cookie";
 import "./styles/home.css";
 
 export default function Home() {
