@@ -1,0 +1,76 @@
+.register-container {
+  width: 100%;
+  max-width: 450px;
+  padding: 2.5rem;
+  background-color: #0A2647; /* azul oscuro */
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.7); /* sombra más elegante */
+  margin: auto;
+  margin-top: 8vh;
+  color: white;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.register-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.register-form h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #00bfff; /* azul claro */
+  font-size: 2rem;
+  text-shadow: 1px 1px 3px #000;
+}
+
+.register-form input {
+  padding: 12px;
+  margin-bottom: 18px;
+  border: 2px solid #00bfff; /* azul claro */
+  border-radius: 8px;
+  font-size: 1rem;
+  background-color: #001529; /* negro-azulado */
+  color: #fff;
+  transition: border 0.3s ease, box-shadow 0.3s ease;
+}
+
+.register-form input:focus {
+  border-color: #1451c1; /* azul normal */
+  box-shadow: 0 0 5px #1451c1;
+  outline: none;
+}
+
+.register-form button {
+  background-color: #1451c1; /* azul normal */
+  color: #fff;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.register-form button:hover {
+  background-color: #00bfff; /* azul claro */
+  transform: translateY(-2px);
+}
+
+.register-link {
+  text-align: center;
+  margin-top: 15px;
+  font-size: 0.95rem;
+}
+
+.register-link span {
+  color: #00bfff; /* azul claro */
+  cursor: pointer;
+  text-decoration: underline;
+  transition: color 0.3s ease;
+}
+
+.register-link span:hover {
+  color: #1451c1; /* azul normal */
+}

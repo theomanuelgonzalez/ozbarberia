@@ -1,0 +1,58 @@
+.ayuda-container {
+  max-width: 700px;
+  margin: 50px auto;
+  padding: 2rem;
+  color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 0 15px #000;
+
+  /* Fondo con imagen desde public */
+  background-image: url('public/img/ozbarberfondo.jpeg');
+  background-size: cover;       /* que ocupe todo el contenedor */
+  background-position: center;  /* centrado */
+  background-repeat: no-repeat; /* no se repita */
+
+  /* Overlay semi-transparente para mejorar legibilidad del texto */
+  background-color: rgba(10, 38, 71, 0.8);
+  background-blend-mode: overlay;
+}
+
+.ayuda-container h1 {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #00bfff;
+}
+
+.faq-item {
+  margin-bottom: 1.2rem;
+  padding: 1rem;
+  border: 1px solid #00bfff;
+  border-radius: 8px;
+  background-color: #1E3A5F;
+  cursor: pointer;
+}
+
+.faq-item h3 {
+  margin: 0;
+}
+
+.faq-item p {
+  margin-top: 0.8rem;
+}
+
+.btn-volver {
+  margin-top: 20px;
+  display: block;
+  background-color: #00bfff;
+  color: #000;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.btn-volver:hover {
+  background-color: #0077aa;
+}

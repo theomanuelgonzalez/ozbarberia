@@ -1,79 +1,13 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>OZ BARBER</title>
-  <link rel="stylesheet" href="styles.css"/>
-  <link rel="stylesheet" href="register.html">
-  <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
-</head>
-<body>
-  <header>
-    <div class="hero-image">
-      <div class="overlay">
-        <h1>OZ BARBER</h1>
-      </div>
-    </div>
-    <nav>
-      <a href="#turnos">Sacar Turno</a>
-      <a href="#productos">Productos</a>
-      <a href="register.html">registrarse</a>
-    </nav>
-  </header>
-
-  <section id="turnos" class="turnos">
-    <h2>Reservá tu turno</h2>
-    <form id="form-turno">
-      <input type="text" name="nombre" placeholder="Nombre completo" required />
-      <input type="tel" name="telefono" placeholder="Teléfono" required />
-      <input type="date" name="fecha" required />
-      <input type="time" name="hora" required />
-      <button type="submit">Reservar</button>
-    </form>
-
-  </section>
-
-  <section id="productos" class="productos">
-    <h2>Productos de Barbería</h2>
-    <div class="grid">
-      <div class="producto">
-        <img src="img/productos/cera.jpg" alt="Cera para pelo">
-        <h3>Cera para pelo</h3>
-        <p>Fijación fuerte, acabado mate.</p>
-        <button>Comprar</button>
-      </div>
-      <div class="producto">
-        <img src="img/productos/gel.jpg" alt="Gel para pelo">
-        <h3>Gel para pelo</h3>
-        <p>Brillo extremo y larga duración.</p>
-        <button>Comprar</button>
-      </div>
-      <div class="producto">
-        <img src="img/productos/rociador.jpg" alt="Rociador">
-        <h3>Rociador</h3>
-        <p>Para uso profesional y doméstico.</p>
-        <button>Comprar</button>
-      </div>
-      <div class="producto">
-        <img src="img/productos/wahl.jpg" alt="Máquina Wahl">
-        <h3>Máquina Wahl</h3>
-        <p>Calidad profesional garantizada.</p>
-        <button>Comprar</button>
-      </div>
-      <div class="producto">
-        <img src="img/productos/navaja.jpg" alt="Navaja">
-        <h3>Navaja</h3>
-        <p>Acero inoxidable, corte preciso.</p>
-        <button>Comprar</button>
-      </div>
-    </div>
-  </section>
-
-  <footer>
-    <p>&copy; 2025 OZ BARBER - Todos los derechos reservados.</p>
-  </footer>
-
-  <script src="script.js"></script>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="public/img/logosi.PNG" />
+    <title>Mi App React</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
 </html>
